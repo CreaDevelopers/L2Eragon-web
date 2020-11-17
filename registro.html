@@ -12,79 +12,87 @@
 <body>
 
     <header>
-        <div class="menu contenedor">
-            <a href=""><img src="img/eragon-logo.svg" alt="logo"></a>
-            <div class="navegacion">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                            <a href="#">Server</a>
-                            <a href="#">Download</a>
-                            <a href="#">Community</a>
-                            <a href="#">Store</a>
-                            <a href="#">Elements</a>
-                            <div class="animation start-home"></div>
-                        </li>
-                    </ul>
-                </nav>
+        <div class="menu contenedor-menu">
+            <div class="logo">
+                <a href="#"><img src="img/eragon-logo.svg" alt="logo"></a>
             </div>
-            <a href=""><img src="img/search.svg" alt="icon buscar"></a>
-            <a href=""><img src="img/config.svg" alt="icon config"></a>
+            <div class="navegacion">
+                <li>
+                    <a href="#" class="cool-link">Home</a>
+                    <a href="#" class="cool-link">Server</a>
+                    <a href="#" class="cool-link">Download</a>
+                    <a href="#" class="cool-link">Community</a>
+                    <a href="#" class="cool-link">Store</a>
+                </li>
+            </div>
+            <div class="buscar">
+                <a href=""><img src="img/search.svg" alt="icon buscar"></a>
+            </div>
+            <div class="config">
+                <a href=""><img src="img/config.svg" alt="icon config"></a>
+            </div>
         </div>
     </header>
 
-    <main class="contenedor">
-        <h2>Register web account</h2>
-        <div class="info-registro">
-            <h3>Importance of registering on the web</h3>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.</p>
-            <div class="follow">
-                <p>follow us on:</p>
-                <img src="img/face.svg" alt="facebook">
-                <img src="img/twitter.svg" alt="twitter">
-                <img src="img/youtube.svg" alt="youtube">
-                <img src="img/insta.svg" alt="instagram">
-                <img src="img/twitch.svg" alt="twich">
+    <main class="main-registro">
+        <div class="bg-color">
+            <div class="contenedor">
+                <h2 class="centrar-texto">Register web <span>account</span></h2>
+                <div class="contenido-registro">
+                    <div class="info-registro">
+                        <h3>Importance of registering on the web</h3>
+                        <img src="img/separador.svg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.</p>
+                        <div class="follow">
+                            <p>follow us on:</p>
+                            <div class="social">
+                                <a href="#"><img src="img/face.svg" alt="facebook"></a>
+                                <a href="#"><img src="img/twitter.svg" alt="twitter"></a>
+                                <a href="#"><img src="img/youtube.svg" alt="youtube"></a>
+                                <a href="#"><img src="img/insta.svg" alt="instagram"></a>
+                                <a href="#"><img src="img/twitch.svg" alt="twich"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-acc">
+                        <form action="">
+                            <input type="text" name="name" id="name" placeholder="You Name">
+                            <input type="email" name="mail" id="mail" placeholder="Email Address">
+                            <input type="email" name="r-mail" id="r-mail" placeholder="Repeat Email Address">
+                            <input type="password" name="pass" id="pass" placeholder="Password">
+                            <input type="password" name="r-pass" id="r-pass" placeholder="Repeat Password">
+                            <input type="submit" value="submit" class="btn">
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="form-acc">
-            <form action="">
-                <input type="text" name="name" id="name" placeholder="You Name">
-                <input type="email" name="mail" id="mail" placeholder="Email Address">
-                <input type="email" name="r-mail" id="r-mail" placeholder="Repeat Email Address">
-                <input type="password" name="pass" id="pass" placeholder="Password">
-                <input type="password" name="r-pass" id="r-pass" placeholder="Repeat Password">
-                <input type="submit" value="submit">
-            </form>
         </div>
     </main>
 
     <footer>
-        <div class="nav-footer">
-            <nav>
-                <ul>
+        <div class="bg-color-footer">
+            <div class="contenedor">
+                <div class="navegacion-footer footer-line">
                     <li>
-                        <a href="#">Home</a>
-                        <a href="#">Server</a>
-                        <a href="#">Download</a>
-                        <a href="#">Community</a>
-                        <a href="#">Store</a>
-                        <a href="#">Elements</a>
+                        <a href="#" class="cool-link">Home</a>
+                        <a href="#" class="cool-link">Server</a>
+                        <a href="#" class="cool-link">Download</a>
+                        <a href="#" class="cool-link">Community</a>
+                        <a href="#" class="cool-link">Store</a>
                     </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="social-footer">
-            <img src="img/face.svg" alt="facebook">
-            <img src="img/twitter.svg" alt="twitter">
-            <img src="img/youtube.svg" alt="youtube">
-            <img src="img/insta.svg" alt="instagram">
-            <img src="img/twitch.svg" alt="twich">
-        </div>
-        <div class="copy">
-            <p>Lineage 2 Eragon 2020. Todos los derechos reservados</p>
-            <p>Web Design by <a href="#">CREA</a></p>
+                </div>
+                <div class="social-footer">
+                    <a href=""><img src="img/face.svg" alt="facebook"></a>
+                    <a href=""><img src="img/twitter.svg" alt="twitter"></a>
+                    <a href=""><img src="img/youtube.svg" alt="youtube"></a>
+                    <a href=""><img src="img/insta.svg" alt="instagram"></a>
+                    <a href=""><img src="img/twitch.svg" alt="twich"></a>
+                </div>
+                <div class="copy">
+                    <p>Lineage 2 Eragon 2020. Todos los derechos reservados</p>
+                    <p>Web Design by <a href="#">CREA</a></p>
+                </div>
+            </div>
         </div>
     </footer>
     
